@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper{
+width:800;
+height:900;
+background-color:#3FF
+	
+}
+
+ul{
+	list-style:none;
+}
+
+#header{
+background-color:#399;
+height:40px;	
+	
+}
+
+#banner{
+background-image:url(Screenshot_1.png);
+height:160px;
+}
+
+#menu
+{
+	background-color:#CC3;
+	height:40px;
+	
+	
+}
+
+#icerik{
+	width:800px;
+	height:400px;
+}
+
+#sol{
+	background-color:#030;
+	width:200px;
+	height:400px;
+	float:left;
+	
+}
+#sag{
+	background-color: #C6C;
+	width: 200px;
+	height: 400px;
+	float:right;
+}
+#orta{
+	background-color: #63C;
+	width:400px;
+	height:400px;
+}
+
+#footer{
+	background-color:#6F6;
+	height:160px;
+	text-align:center;
+}
