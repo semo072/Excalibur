@@ -1,0 +1,170 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tbbpportalv2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+    
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:clickable="false"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_launcher" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="right"
+        android:inputType="text"
+        android:text="@string/tbbp_portal"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="9dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="bottom|center"
+        android:inputType="text"
+        android:text="@string/t_m_haklar_sakl_d_r_yap_mc_semih_k_l_arslan"
+        android:textSize="12sp"
+        android:width="400dp" />
+
+    <Button
+        android:id="@+id/sulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_toLeftOf="@+id/facebook"
+        android:text="@string/ara1" />
+
+    <TextView
+        android:id="@+id/sulot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sulo"
+        android:layout_alignBottom="@+id/sulo"
+        android:layout_toRightOf="@+id/imageButton1"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:text="@string/s_leyman_kandemir"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/semot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sulot"
+        android:layout_below="@+id/sulo"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:text="@string/semih_k_l_arslan"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/semo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/semot"
+        android:layout_toLeftOf="@+id/facebook"
+        android:text="@string/ara1" />
+
+    <Button
+        android:id="@+id/zeyno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/semo"
+        android:layout_toLeftOf="@+id/facebook"
+        android:text="@string/ara1" />
+
+    <TextView
+        android:id="@+id/zeynot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/zeyno"
+        android:layout_alignBottom="@+id/zeyno"
+        android:layout_alignLeft="@+id/editText2"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:text="@string/zeynep_da_tan"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/ekran2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/zeynot"
+        android:layout_below="@+id/imageButton1"
+        android:text="@string/duyurular" />
+
+    <Button
+        android:id="@+id/facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ekran2"
+        android:layout_centerHorizontal="true"
+        android:text="@string/facebook_sayfamiz" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/facebook"
+        android:layout_toRightOf="@+id/imageButton1"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="textMultiLine"
+        android:text="@string/akdeniz_universitesi_teknik_bilimler_meslek_yuksekokulu_bilgisayar_programciligi_ikinci_ogretim_ve_meteb_duyuru_sayfasi_uygulamasi"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zeyno"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:text="@string/bildirimler" />
+
+</RelativeLayout>

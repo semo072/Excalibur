@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TBBPPortal</string>
+    <string name="tbbp_portal">TBBP PORTAL</string>
+    <string name="duyurular">DUYURULAR</string>
+    <string name="todo">todo</string>
+    <string name="t_m_haklar_sakl_d_r_yap_mc_semih_k_l_arslan">Tüm Hakları Saklıdır - Yapımcı: Semih Kılıçarslan</string>
+    <string name="akdeniz_universitesi_teknik_bilimler_meslek_yuksekokulu_bilgisayar_programciligi_ikinci_ogretim_ve_meteb_duyuru_sayfasi_uygulamasi">Akdeniz Universitesi Teknik Bilimler Meslek Yuksekokulu Bilgisayar Programciligi Ikinci Ogretim ve Meteb Duyuru Sayfasi Uygulamasi</string>
+    <string name="facebook_sayfamiz">FACEBOOK SAYFAMIZ</string>
+    <string name="ara">Ara</string>
+    <string name="s_leyman_kandemir">Süleyman Kandemir</string>
+    <string name="semih_k_l_arslan">Semih Kılıçarslan</string>
+    <string name="zeynep_da_tan">Zeynep Daştan</string>
+    <string name="ara1">Ara</string>
+    <string name="bildirimler">Bildirimler</string>
+	<string name="banner_ad_unit_id">ca-app-pub-7454398777696461/5305480784</string>
+    
+</resources>
